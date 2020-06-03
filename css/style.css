@@ -40,9 +40,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 1s;
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name:rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: 100;
+    animation-timing-function: linear;
 }
 .ex-11-icon {
     font-size: 60px;
